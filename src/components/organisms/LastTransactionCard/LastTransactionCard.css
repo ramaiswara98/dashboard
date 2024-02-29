@@ -1,12 +1,15 @@
-.dashboard-header{
+.last-transaction-card-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
-.dashboard-third-row{
+.last-transaction-card-chooser{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 5px;
+}
+
+.selected{
+
 }
