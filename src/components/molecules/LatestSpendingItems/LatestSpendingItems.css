@@ -1,0 +1,23 @@
+.latest-item-img{
+    width: 64px;
+    height: 64px;
+}
+
+.latest-item-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid var(--gray);
+    padding-top: 5px;
+}
+
+.latest-item-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

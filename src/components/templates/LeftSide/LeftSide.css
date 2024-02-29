@@ -1,0 +1,23 @@
+.left-side-container{
+    width: 60px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-between;
+}
+
+.logo-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}

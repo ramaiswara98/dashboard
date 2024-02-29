@@ -1,0 +1,7 @@
+.rightside-container{
+    width: 340px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

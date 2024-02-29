@@ -1,0 +1,14 @@
+.regular{
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.left{
+    text-align: left;
+}

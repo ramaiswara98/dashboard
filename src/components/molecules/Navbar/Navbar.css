@@ -1,0 +1,8 @@
+.navBar-container{
+    background-color: var(--lightPurple);
+    padding: 20px 10px;
+    border-radius: 30px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
