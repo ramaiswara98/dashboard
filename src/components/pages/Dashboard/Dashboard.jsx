@@ -17,19 +17,19 @@ function Dashboard() {
   const name = "Jhon Demon";
   const balance = 564;
   const cardDetails = {
-    holder:name,
-    number:"****9838",
-    valid:"08/12"
-  }
+    holder: name,
+    number: "****9838",
+    valid: "08/12",
+  };
 
   const balanceChartData = {
-    data1:[60,30,30,25,20,],
-    data2:[50,20,20,20,10,],
-    labels:['Oct', 'Nov', 'Dec', 'Jan', 'Feb']
-  }
+    data1: [60, 30, 30, 25, 20],
+    data2: [50, 20, 20, 20, 10],
+    labels: ["Oct", "Nov", "Dec", "Jan", "Feb"],
+  };
   return (
     <div className="">
-      <MainTemplate>
+      <MainTemplate pages={"dashboard"}>
         <div>
           <div className="dashboard-header">
             <div>
@@ -43,8 +43,8 @@ function Dashboard() {
             </div>
           </div>
           <div className="dashboard-third-row">
-            <BalanceCard balance={balance} chartData={balanceChartData}/>
-            <CreditCard cardDetails={cardDetails}/>
+            <BalanceCard balance={balance} chartData={balanceChartData} />
+            <CreditCard cardDetails={cardDetails} />
           </div>
           <div className="dashboard-third-row">
             <ShopListAndChatCard />

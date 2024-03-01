@@ -1,4 +1,4 @@
-.credit-card-container{
+.credit-card-container {
     width: 330px;
     border-radius: 15px;
     background-position: center;
@@ -10,26 +10,26 @@
     justify-content: space-between;
 }
 
-.credit-card-top{
+.credit-card-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.credit-card-visa{
+.credit-card-visa {
     width: 72px;
     height: 30px;
 }
 
-.credit-card-bottom{
+.credit-card-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.credit-card-bottom-left{
+.credit-card-bottom-left {
     display: flex;
     flex-direction: column;
 }

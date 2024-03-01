@@ -1,19 +1,21 @@
-import React from 'react'
+import React from "react";
 
-import './Label.css'
+import "./Label.css";
 
-function Label({children, size,color, bold, align }) {
+function Label({ children, size, color, bold, align }) {
   const style = {
-    fontSize: size || '14px',
-    color: color || 'black',
-    fontWeight: bold ? 'bold' : 'normal',
-    textAlign:align || 'left'
+    fontSize: size || "14px",
+    color: color || "black",
+    fontWeight: bold ? "bold" : "normal",
+    textAlign: align || "left",
   };
   return (
     <>
-      <p className='regular' style={style}>{children}</p>
+      <p className="regular" style={style}>
+        {children}
+      </p>
     </>
-  )
+  );
 }
 
-export default Label
+export default Label;

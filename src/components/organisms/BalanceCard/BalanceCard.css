@@ -1,8 +1,8 @@
-.balance-dollar-img{
+.balance-dollar-img {
     width: 54px;
 }
 
-.total-balance-container{
+.total-balance-container {
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
@@ -11,7 +11,7 @@
     gap: 5px;
 }
 
-.balance-content{
+.balance-content {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -19,21 +19,22 @@
     align-items: center;
 }
 
-.balance-bottom{
+.balance-bottom {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3px;
     width: 100px;
 }
-.balance-left{
+
+.balance-left {
     width: 140px;
 }
 
-.balance-container{
+.balance-container {
     max-width: 400px;
 }
 
-.chart-bar{
+.chart-bar {
     width: 250px;
 }

@@ -1,15 +1,15 @@
-.analytic-card-header{
+.analytic-card-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.analytic-card-container{
+.analytic-card-container {
     width: 250px;
 }
 
-.analityc-chart-container{
+.analityc-chart-container {
     height: 160px;
     display: flex;
     flex-direction: column;
@@ -17,36 +17,38 @@
     align-items: center;
 }
 
-.chart-text{
+.chart-text {
     margin-top: -80px;
 }
 
-.chart-legends{
+.chart-legends {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
 
-.chart-legends-items{
+.chart-legends-items {
     display: flex;
     flex-direction: row;
     gap: 5px;
     align-items: center;
 }
 
-.blue{
+.blue {
     width: 10px;
     height: 10px;
     background-color: var(--blue);
     border-radius: 5px;
 }
-.yellow{
+
+.yellow {
     width: 10px;
     height: 10px;
     background-color: var(--yellow);
     border-radius: 5px;
 }
-.orange{
+
+.orange {
     width: 10px;
     height: 10px;
     background-color: var(--orange);

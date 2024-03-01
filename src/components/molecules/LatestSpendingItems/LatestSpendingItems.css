@@ -1,9 +1,9 @@
-.latest-item-img{
+.latest-item-img {
     width: 64px;
     height: 64px;
 }
 
-.latest-item-container{
+.latest-item-container {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -15,7 +15,7 @@
     padding-top: 5px;
 }
 
-.latest-item-text{
+.latest-item-text {
     display: flex;
     flex-direction: column;
     justify-content: center;

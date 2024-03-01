@@ -1,4 +1,4 @@
-.chat-items-me{
+.chat-items-me {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -6,9 +6,10 @@
     align-items: center;
     height: fit-content;
     width: 100%;
+    margin-top: 5px;
 }
 
-.chat-items-you{
+.chat-items-you {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -16,4 +17,5 @@
     align-items: center;
     height: fit-content;
     width: 100%;
+    margin-top: 5px;
 }

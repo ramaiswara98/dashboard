@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import './MiddleSide.css'
+import "./MiddleSide.css";
 
-function MiddleSide({children}) {
-  return (
-    <div className='middleside-container'>
-        {children}</div>
-  )
+function MiddleSide({ children }) {
+  return <div className="middleside-container">{children}</div>;
 }
 
-export default MiddleSide
+export default MiddleSide;

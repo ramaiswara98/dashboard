@@ -1,8 +1,8 @@
-.chat-view-container{
+.chat-view-container {
     width: 45%;
 }
 
-.input-chat{
+.input-chat {
     background-color: var(--gray);
     border-radius: 10px;
     width: 310px;
@@ -11,20 +11,27 @@
     flex-direction: column;
 }
 
-.input-chat-bottom{
+
+.input-chat-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.input-chat-bottom-icon-container{
+.input-chat-bottom-icon-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
 
-.input-chat-icon{
+.input-chat-icon {
     color: #707070;
+}
+
+.chat-area {
+    height: 100px;
+    max-height: 100px;
+    overflow-y: scroll;
 }

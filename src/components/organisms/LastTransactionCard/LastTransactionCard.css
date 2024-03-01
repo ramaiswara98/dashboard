@@ -1,23 +1,24 @@
-.last-transaction-card-header{
+.last-transaction-card-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.last-transaction-card-chooser{
+.last-transaction-card-chooser {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.latest-transaction-card-container{
+
+.latest-transaction-card-container {
     width: 450px;
 }
 
-.selected-transaction{
+.selected-transaction {
     border-bottom: 1px solid black;
-    
+
 }
 
-.chooser:hover{
+.chooser:hover {
     cursor: pointer;
 }

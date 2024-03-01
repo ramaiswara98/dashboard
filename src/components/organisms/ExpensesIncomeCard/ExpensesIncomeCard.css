@@ -1,27 +1,27 @@
-p{
+p {
     color: black;
 }
 
-.EIC-Content{
+.EIC-Content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.EIC-line{
+.EIC-line {
     width: 2px;
     background-color: #707070;
     height: 100%;
 }
 
-.EIC-divider{
+.EIC-divider {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.expenses-income-card-container{
+.expenses-income-card-container {
     padding: 10px 0px;
 }

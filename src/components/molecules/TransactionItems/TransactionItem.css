@@ -1,4 +1,4 @@
-.transaction-item-container{
+.transaction-item-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,13 +9,13 @@
     margin-top: 5px;
 }
 
-.transaction-item-left{
+.transaction-item-left {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.transaction-item-right{
+.transaction-item-right {
     display: flex;
     flex-direction: row;
     gap: 10px;

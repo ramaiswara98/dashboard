@@ -1,18 +1,19 @@
-.bars-left{
+.bars-left {
     background-color: var(--blue);
     height: 20px;
     border-radius: 5px;
 }
-.bars-right{
+
+.bars-right {
     background-color: var(--yellow);
     height: 20px;
     border-radius: 5px;
 }
 
-.bars-container{
+.bars-container {
     display: flex;
     flex-direction: row;
-    gap:5px;
+    gap: 5px;
     margin-top: 10px;
     margin-bottom: 5px;
 }

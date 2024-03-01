@@ -4,14 +4,19 @@
   padding: 2rem;
   text-align: center;
 }
+
 :root {
-  --highlight-color: #ff0000; /* Define your highlight color */
-  --lightPurple:#E5E5FD;
-  --white:#FFFFFF;
-  --gray:#F7F6FE;
-  --blue:#535CE5;
-  --yellow:#FAA512;
-  --darkGray:#808080;
-  --orange:#E7654D;
+
+  --lightPurple: #E5E5FD;
+  --white: #FFFFFF;
+  --gray: #F7F6FE;
+  --blue: #535CE5;
+  --yellow: #FAA512;
+  --darkGray: #808080;
+  --orange: #E7654D;
 }
 
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--blue) transparent;
+}

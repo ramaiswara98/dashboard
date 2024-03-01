@@ -1,11 +1,11 @@
-.shop-and-chat{
+.shop-and-chat {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: 755px;
 }
 
-.divider-shop-chat{
+.divider-shop-chat {
     width: 2px;
     background-color: var(--gray);
     height: 200px;

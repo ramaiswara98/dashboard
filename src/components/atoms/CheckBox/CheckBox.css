@@ -1,22 +1,23 @@
-.icon-check{
+.icon-check {
     color: white;
 }
 
-.checkbox-container{
+.checkbox-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 
-.checked{
+.checked {
     background-color: var(--blue);
     width: 24px;
     height: 24px;
     border-radius: 5px;
 }
 
-.unchecked{
+.unchecked {
     width: 24px;
     height: 24px;
     border: solid 2px #707070;
