@@ -14,3 +14,10 @@
     flex-direction: row;
     gap: 10px;
 }
+
+.transaction-item-right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}

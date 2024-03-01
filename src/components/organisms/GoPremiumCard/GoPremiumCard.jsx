@@ -9,13 +9,13 @@ import Button from '../../atoms/Button/Button'
 function GoPremiumCard() {
   return (
     <Card>
-        <Label size={"regular-bold"}>Go to Premium</Label>
+        <Label bold={true}>Go to Premium</Label>
         <div className='go-premium-content'>
         <img src={Crown} className='go-premium-img'/>
-        <Label size={"regular-bold"}>Need more features ?</Label>
-        <Label size={"regular-left"}>Update your account to premium to get more features</Label>
+        <Label size={"16px"} bold={true}>Need more features ?</Label>
+        <Label color={"var(--darkGray)"}>Update your account to premium to get more features</Label>
         <div style={{width:"200px", marginTop:10, marginBottom:10}}>
-        <Button>Get Now</Button>
+        <Button size={"full"}>Get Now</Button>
         </div>
         
         </div>

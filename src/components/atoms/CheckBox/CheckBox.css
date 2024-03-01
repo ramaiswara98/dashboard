@@ -1,0 +1,24 @@
+.icon-check{
+    color: white;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.checked{
+    background-color: var(--blue);
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+}
+
+.unchecked{
+    width: 24px;
+    height: 24px;
+    border: solid 2px #707070;
+    border-radius: 5px;
+}

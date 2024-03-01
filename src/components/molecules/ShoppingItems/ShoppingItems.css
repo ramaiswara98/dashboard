@@ -1,0 +1,11 @@
+.shopping-items-container{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    background-color: var(--gray);
+    padding: 10px 10px;
+    border-radius: 5px;
+}

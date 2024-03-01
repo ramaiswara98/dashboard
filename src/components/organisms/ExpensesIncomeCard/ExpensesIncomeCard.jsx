@@ -8,12 +8,13 @@ import Bars from '../../atoms/Bars/Bars'
 function ExpensesIncomeCard() {
   return (
     <Card>
-        <p style={{color:'#000', fontSize:'16px', fontWeight:'bold', textAlign:'left'}}>Expenses And Income</p>
+      <div className='expenses-income-card-container'>
+        <Label bold={true} size={"16px"}>Expenses And Income</Label>
         <div className='EIC-Content'>
           <div>
-            <Label size={"regular-bold"}>Expenses</Label>
-            <Label size={"regular-bold"}>75%</Label>
-            <Label size={"regular"}>5.653</Label>
+            <Label size={"12px"} bold={true}>Expenses</Label>
+            <Label size={"16px"} bold={true}>75%</Label>
+            <Label size={"10px"} color={"var(--darkGray)"}>5.653</Label>
           </div>
           <div className='EIC-divider'> 
             <div className='EIC-line'></div>
@@ -21,12 +22,13 @@ function ExpensesIncomeCard() {
             <div className='EIC-line'></div>
           </div>
           <div>
-          <Label size={"regular-bold"}>Income</Label>
-            <Label size={"regular-bold"}>40%</Label>
-            <Label size={"regular"}>2.656</Label>
+          <Label size={"12px"} bold={true}>Income</Label>
+            <Label size={"16px"} bold={true}>40%</Label>
+            <Label size={"10px"} color={"var(--darkGray)"}>2.656</Label>
           </div>
         </div>
         <Bars left={"75%"} right={"40%"}/>
+        </div>
     </Card>
   )
 }

@@ -1,0 +1,30 @@
+.chat-view-container{
+    width: 45%;
+}
+
+.input-chat{
+    background-color: var(--gray);
+    border-radius: 10px;
+    width: 310px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-chat-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-chat-bottom-icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-chat-icon{
+    color: #707070;
+}

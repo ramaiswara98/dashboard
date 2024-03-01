@@ -10,7 +10,7 @@ function LastTransactionCard() {
   return (
    <Card>
     <div className='last-transaction-card-header'>
-    <Label size={"regular-bold"}>Last Transactions</Label>
+    <Label bold={true}>Last Transactions</Label>
     <div className='last-transaction-card-chooser'>
         <Label size={"regular"} className={'selected'}>Newest</Label>
         <Label size={"regular"}>Oldest</Label>

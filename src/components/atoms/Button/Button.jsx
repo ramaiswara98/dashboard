@@ -1,11 +1,21 @@
 import React from 'react'
 
 import './Button.css'
-function Button({children}) {
+function Button({size,children}) {
   return (
-    <div
-        className='button-container'
-    >{children}</div>
+    <>
+    {size === "small" && (
+      <div
+          className='button-container small'
+      >{children}</div>
+    )}
+    {size === "full" && (
+      <div
+          className='button-container full'
+      >{children}</div>
+      )}
+    </>
+    
   )
 }
 

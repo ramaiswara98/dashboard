@@ -1,7 +1,19 @@
 .button-container{
     background-color: var(--blue);
-    padding:10px 40px;
-    border-radius: 15px;
-    width: 100%;
+     
     cursor: pointer;
+}
+
+.full{
+    padding:10px 40px;
+    width: 100%;
+    border-radius: 15px; 
+}
+
+.small{
+    width: 72px;
+    height: 18px;
+    padding:5px 10px;
+    font-size: 12px;
+    border-radius: 5px; 
 }

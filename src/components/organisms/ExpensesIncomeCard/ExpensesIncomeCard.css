@@ -6,6 +6,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .EIC-line{
@@ -19,4 +20,8 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.expenses-income-card-container{
+    padding: 10px 0px;
 }

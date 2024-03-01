@@ -9,8 +9,8 @@ function LatestSpendingItems({img, text, date}) {
     <div className='latest-item-container'>
         <img src={img} className='latest-item-img'/>
         <div className='latest-item-text'>
-            <Label size={"regular-bold"}>{text}</Label>
-            <Label size={"regular-bold"}>{date}</Label>
+            <Label bold={true}>{text}</Label>
+            <Label size={"12px"} color={"var(--darkGray)"}>{date}</Label>
         </div>
     </div>
   )

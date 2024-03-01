@@ -5,3 +5,5 @@ const Color = {
     blue:"#535CE5",
     yellow:"#FAA512"
 }
+
+export default Color

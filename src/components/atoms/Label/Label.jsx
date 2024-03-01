@@ -2,26 +2,16 @@ import React from 'react'
 
 import './Label.css'
 
-function Label({children, size,type}) {
+function Label({children, size,color, bold, align }) {
+  const style = {
+    fontSize: size || '14px',
+    color: color || 'black',
+    fontWeight: bold ? 'bold' : 'normal',
+    textAlign:align || 'left'
+  };
   return (
     <>
-    {size === "regular" &&(
-      <p className='regular'>{children}</p>
-    )}
-     {size === "regular-left" &&(
-      <p className='regular left'>{children}</p>
-    )}
-    {size === "regular-bold" &&(
-      <p className='regular bold'>{children}</p>
-    )}
-    {size === "regular-bold-left" &&(
-      <p className='regular bold left'>{children}</p>
-    )}
-    {size === "title" &&(
-      <p className='title'>{children}</p>
-    )}
-    
-    
+      <p className='regular' style={style}>{children}</p>
     </>
   )
 }
