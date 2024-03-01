@@ -12,3 +12,12 @@
 .latest-transaction-card-container{
     width: 450px;
 }
+
+.selected-transaction{
+    border-bottom: 1px solid black;
+    
+}
+
+.chooser:hover{
+    cursor: pointer;
+}

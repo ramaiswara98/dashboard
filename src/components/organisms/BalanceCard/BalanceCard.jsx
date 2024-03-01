@@ -19,8 +19,9 @@ import {
 import Color from '../../atoms/color'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons'
+import BarChart from '../../atoms/BarChart/BarChart'
 
-function BalanceCard() {
+function BalanceCard({balance,chartData}) {
   ChartJS.register(
     CategoryScale,
     LinearScale,
@@ -30,29 +31,7 @@ function BalanceCard() {
     LineElement,
     
   );
-  const labels = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb'];
-  const options = {
-    responsive:true,
-    scales: {
-        x: {
-            grid: {
-              display:false
-            }
-        },
-        y: {
-          ticks:{
-            // Include a dollar sign in the ticks
-            callback: function(value, index, ticks) {
-              return '$' + value;
-          },
-          stepSize:20,
-          },
-          grid:{
-            display:false
-          }
-        }
-    }
-}
+ 
 
 const options2 = {
   responsive:true,
@@ -93,7 +72,7 @@ const options2 = {
       }
   }
 }
-const labelsLine = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb','Oct', 'Nov', 'Dec', 'Jan', 'Feb','Dec', 'Jan', 'Feb'];
+const labelsLine = ['1', '2', '3', '4', '5','6', '7', '8', '9', '10','11', '12', '13'];
   const dataLine = {
     labels:labelsLine,
     datasets:[
@@ -105,21 +84,6 @@ const labelsLine = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb','Oct', 'Nov', 'Dec', 'Jan'
       },
     ]
   }
-  const data = {
-    labels,
-    datasets: [
-      {
-        label: 'Dataset 1',
-        data: [60,30,30,25,20,],
-        backgroundColor: Color.blue,
-      },
-      {
-        label: 'Dataset 2',
-        data: [50,20,20,20,10,],
-        backgroundColor: Color.lightPurple,
-      },
-    ],
-  };
   return (
     <Card>
       <div className='balance-container'>
@@ -128,7 +92,7 @@ const labelsLine = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb','Oct', 'Nov', 'Dec', 'Jan'
       </div>
       <div className='balance-content'>
         <div className='balance-left'>
-          <Label size={"30px"} bold={true}>$564</Label>
+          <Label size={"30px"} bold={true}>${balance}</Label>
           <div className='total-balance-container'>
             <img src={Dollar} className='balance-dollar-img'/>
             <Label size={"12px"}>Your total Balance</Label>
@@ -144,7 +108,8 @@ const labelsLine = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb','Oct', 'Nov', 'Dec', 'Jan'
           <Label size={"12px"} color={'var(--darkGray)'}>Always see your earnings updates</Label>
         </div>
         <div className='chart-bar'>
-        <Bar options={options} data={data} style={{width:'100%',height:'85%'}}/>
+        {/* <Bar options={options} data={data} style={{width:'100%',height:'85%'}}/> */}
+        <BarChart chartData={chartData}/>
         </div>
       </div>
       </div>

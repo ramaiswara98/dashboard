@@ -19,8 +19,8 @@ function ShoppingList() {
                 <FontAwesomeIcon icon={faChevronRight} className='shopping-list-right-icon'/>
             </div>
             <div>
-                <Label bold={true} size={"16px"}>02:00</Label>
-                <Label size={"12px"} color={"var(--darkGray)"}>Sat, August 12</Label>
+                <Label bold={true} size={"16px"}>05:00</Label>
+                <Label size={"12px"} color={"var(--darkGray)"}>Sat, September 12</Label>
             </div>
         </div>
         <div className='shopping-list-second-row'>
@@ -34,10 +34,10 @@ function ShoppingList() {
             </div>
         </div>
         <div className='shopping-item-list'>
-            <ShoppingItems/>
-            <ShoppingItems/>
-            <ShoppingItems/>
-            <ShoppingItems/>
+            <ShoppingItems items={"Macbook"} checked={true}/>
+            <ShoppingItems items={"Motorcycle"} checked={false}/>
+            <ShoppingItems items={"Bycicle"} checked={false}/>
+            <ShoppingItems items={"Iphone 14 pro max"} checked={true}/>
         </div>
     </div>
   )

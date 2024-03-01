@@ -4,7 +4,7 @@ import './CheckBox.css'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Label from '../Label/Label'
-function CheckBox({checked}) {
+function CheckBox({checked,text}) {
   return (
     <div className='checkbox-container'>
       {checked?(
@@ -17,7 +17,7 @@ function CheckBox({checked}) {
         </div>
       )}
       
-      <Label size={'regular'}>Checkbox</Label>
+      <Label size={'regular'}>{text}</Label>
     </div>
   )
 }

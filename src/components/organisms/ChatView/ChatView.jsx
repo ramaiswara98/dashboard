@@ -7,14 +7,16 @@ import TextArea from '../../atoms/TextArea/TextArea'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperclip, faSmile } from '@fortawesome/free-solid-svg-icons'
 import Button from '../../atoms/Button/Button'
+import User1 from '../../../assets/images/user1.png'
+import User2 from '../../../assets/images/user2.png'
 
 function ChatView() {
   return (
     <div className='chat-view-container'>
         <Label bold={true}>Esther Howard</Label>
         <div>
-            <ChatItems from={"me"}/>
-            <ChatItems from={"you"}/>
+            <ChatItems from={"me"} text={"Are you ready ?"} avatar={User1}/>
+            <ChatItems from={"you"} text={"I have prepared everything"} avatar={User2}/>
         </div>
         <div className='input-chat'>
             <TextArea/>

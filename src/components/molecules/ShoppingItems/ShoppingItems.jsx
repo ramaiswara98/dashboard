@@ -5,10 +5,10 @@ import CheckBox from '../../atoms/CheckBox/CheckBox'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
 
-function ShoppingItems() {
+function ShoppingItems({items, checked}) {
   return (
     <div className='shopping-items-container'>
-        <CheckBox checked={true}/>
+        <CheckBox checked={checked} text={items}/>
         <FontAwesomeIcon icon={faEllipsisVertical} style={{color:'#000'}}/>
     </div>
   )
