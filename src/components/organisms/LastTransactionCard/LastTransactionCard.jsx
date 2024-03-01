@@ -9,17 +9,19 @@ import TransactionItem from '../../molecules/TransactionItems/TransactionItem'
 function LastTransactionCard() {
   return (
    <Card>
-    <div className='last-transaction-card-header'>
-    <Label bold={true}>Last Transactions</Label>
-    <div className='last-transaction-card-chooser'>
-        <Label size={"regular"} className={'selected'}>Newest</Label>
-        <Label size={"regular"}>Oldest</Label>
-    </div>
-    </div>
-    <div>
-        <TransactionItem/>
-        <TransactionItem/>
-        <TransactionItem/>
+    <div className='latest-transaction-card-container'>
+      <div className='last-transaction-card-header'>
+      <Label bold={true}>Last Transactions</Label>
+      <div className='last-transaction-card-chooser'>
+          <Label size={"regular"} className={'selected'}>Newest</Label>
+          <Label size={"regular"}>Oldest</Label>
+      </div>
+      </div>
+      <div>
+          <TransactionItem/>
+          <TransactionItem/>
+          <TransactionItem/>
+      </div>
     </div>
    </Card>
   )

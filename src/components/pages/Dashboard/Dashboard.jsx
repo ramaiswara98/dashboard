@@ -18,6 +18,7 @@ import ShopListAndChatCard from '../../organisms/ShopListAndChatCard/ShopListAnd
 import ChatBuble from '../../atoms/ChatBuble/ChatBuble';
 import ChatItems from '../../molecules/ChatItems/ChatItems';
 import ChatView from '../../organisms/ChatView/ChatView';
+import AnalitycCard from '../../organisms/AnalitycCard/AnalitycCard';
 
 function Dashboard() {
   return (
@@ -36,13 +37,13 @@ function Dashboard() {
             <div className='dashboard-third-row'>
             <BalanceCard/>
             <CreditCard/>
-            {/* <LastTransactionCard/> */}
             </div>
             <div className='dashboard-third-row'>
               <ShopListAndChatCard/>
             </div>
             <div className='dashboard-third-row'>
             <LastTransactionCard/>
+            <AnalitycCard/>
             </div>
             
           </div>

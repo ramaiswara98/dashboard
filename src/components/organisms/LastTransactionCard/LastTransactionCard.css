@@ -9,3 +9,6 @@
     flex-direction: row;
     gap: 5px;
 }
+.latest-transaction-card-container{
+    width: 450px;
+}
