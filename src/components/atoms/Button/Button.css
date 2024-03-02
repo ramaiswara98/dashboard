@@ -1,6 +1,6 @@
 .button-container {
     background-color: var(--blue);
-    color:'#FFFFFF';
+    color:#FFFFFF;
     cursor: pointer;
 }
 
